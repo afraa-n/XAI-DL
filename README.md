@@ -29,22 +29,22 @@ The t-statistic is -17.8344, and the p-value is 0.0000. This tells us there is a
 
 The visualizations created during this analysis provide important information:
 
-Original Images: The original images of digits 6 and 8 from the MNIST dataset are clear, showing the features that the model needs to identify.   
+a. Original Images: The original images of digits 6 and 8 from the MNIST dataset are clear, showing the features that the model needs to identify.   
 
-Saliency Maps: The saliency maps point out which parts of the digits are most important for the model’s classification:   
+b. Saliency Maps: The saliency maps point out which parts of the digits are most important for the model’s classification:   
 - For Digit 6, the saliency map highlights the middle region, which matches the higher sensitivity we found earlier.  
 - For Digit 8, the saliency map also focuses on the middle region, but with even more emphasis, which goes along with the high sensitivity value of 8.3545.
 
-Regional Comparison: The bar chart compares the sensitivities of the different regions between the two digits, making it easy to see how the model views each digit.
+c. Regional Comparison: The bar chart compares the sensitivities of the different regions between the two digits, making it easy to see how the model views each digit.
 
 ![image](https://github.com/user-attachments/assets/cb716664-327a-436d-9c41-e033aa2fc133)
 
 
 ### 4. Conclusions
 
-Statistical Significance: The analysis shows that there is a significant difference in sensitivity patterns between digits 6 and 8, allowing us to reject the null hypothesis.    
+a. Statistical Significance: The analysis shows that there is a significant difference in sensitivity patterns between digits 6 and 8, allowing us to reject the null hypothesis.    
 
-Pattern Analysis: The results indicate that while both digits have high sensitivity in the middle region, Digit 8 relies even more on this area for classification, as reflected in its much higher sensitivity values.   
+b. Pattern Analysis: The results indicate that while both digits have high sensitivity in the middle region, Digit 8 relies even more on this area for classification, as reflected in its much higher sensitivity values.   
 
-Key Findings: This assignment shows that the CNN model processes digits 6 and 8 differently, which aligns with the structural differences between the two digits.
+c. Key Findings: This assignment shows that the CNN model processes digits 6 and 8 differently, which aligns with the structural differences between the two digits.
 The focus on the middle region for both digits suggests that this area contains key features needed for their classification, with Digit 8 needing extra attention in this region.

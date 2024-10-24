@@ -16,12 +16,12 @@ d. Statistical comparison of sensitivity distributions
 
 ### 3. Results
 
-#### Regional Sensitivity Overview: 
+#### Regional Sensitivity Overview 
 For Digit 6, the middle region shows the highest sensitivity at 0.7985. This means that the model depends a lot on this central part of the digit to make its classification. The bottom region has a lower sensitivity of 0.2181, while the top region is even less important, with a sensitivity of 0.1997.
 On the other hand, Digit 8 has a different pattern. The middle region has a much higher sensitivity of 8.3545, indicating that this part is really important for the model’s recognition of this digit. The top region has a sensitivity of 1.9607, and the bottom region sits at 1.3313. While both of these areas matter, they are not nearly as critical as the middle region.
 
 
-#### Statistical Significance:
+#### Statistical Significance
 The t-statistic is -17.8344, and the p-value is 0.0000. This tells us there is a significant difference in regional sensitivities between digits 6 and 8. Since the p-value is much smaller than 0.05, we can reject the null hypothesis. This supports our alternative hypothesis that the sensitivity patterns for digits 6 and 8 are different.
 
 
